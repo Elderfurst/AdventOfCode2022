@@ -21,8 +21,8 @@ func partOne() {
 
 	scanner := bufio.NewScanner(file)
 
-	var maxElf = 0
-	var currentElf = 0
+	maxElf := 0
+	currentElf := 0
 
 	// scanner.Scan() advances to the next line by default
 	for scanner.Scan() {
