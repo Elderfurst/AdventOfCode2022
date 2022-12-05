@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	// NOTE: I cleaned up the input, so what is committed alongside the code is different from what was presented on the website
 	stacks, procedures := ReadInput()
 
 	// Since each part actually modifies 'stacks' it's easier to just comment out which part you don't want to run
